@@ -4,12 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Odin Recipes</title>
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <p>
+        <div class = "page">
+        <h1 class="title header text">Odin Recipes</h1>
+        <p class="text">
             Hello!  I've picked the following recipes because I'm an absolute
             nerd for Japanese culture.  These are pretty dang good recipes
             that I've had the fortune to try.
@@ -17,21 +19,23 @@
             Also, I added the cinnamon rolls because I'm a fatty.
         </p>
 
-        <h2>Japanese Recipes</h2>
+        <div class="container link-block">
+        <h2 class="header text">Japanese Recipes</h2>
         <ul>
-            <li><a href="recipes/miso-ramen.html">Miso Ramen</a></li>
-            <li><a href="recipes/karaage.html">Karaage Fried Chicken</a></li>
+            <li><a class="link text" href="recipes/miso-ramen.html">Miso Ramen</a></li>
+            <li><a class="link text" href="recipes/karaage.html">Karaage Fried Chicken</a></li>
         </ul>
 
-        <h2>American Recipes</h2>
+        <h2 class="header text">American Recipes</h2>
         <ul>
-            <li><a href="recipes/cinnamon-rolls.html">Cinnamon Rolls</a></li>
+            <li><a class="link text" href="recipes/cinnamon-rolls.html">Cinnamon Rolls</a></li>
         </ul>
+        </div>
 
         <br><br><br><br>
-        <p>
+        <p class="footer text">
             Created as part of
-            <a href="https://www.theodinproject.com"
+            <a class="link text" href="https://www.theodinproject.com"
             target ="_blank" rel="noopener noreferrer"
             >The Odin Project</a>.
             This project meets requirements for the assignment
@@ -40,5 +44,6 @@
             practice purposes.
         </p>
     
+        </div>
     </body>
 </html>

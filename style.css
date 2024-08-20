@@ -1,0 +1,38 @@
+/* GENERAL STYLES */
+.page {
+    background-color: #0D1321;
+}
+
+.link-block {
+    background-color: #1d2d44;
+}
+
+/* TEXT STYLES */
+/* GENERIC */
+.text {
+    font-family: "Verdana", "Helvetica", sans-serif;
+    color: #F0EBD8;
+    font-weight: 300;
+}
+
+/* LINKS */
+.link {
+    color: #748CAB;
+    font-weight: 400;
+}
+
+/* HEADERS AND TITLES */
+.header {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.footer {
+    font-size: 12px;
+    font-weight: 200;
+}
