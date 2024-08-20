@@ -1,11 +1,34 @@
 /* GENERAL STYLES */
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: #0D1321;
 }
 
-.link-block,
-.container.description {
+.container.page-header {
+    border-color: red;
     background-color: #1d2d44;
+    display: block;
+}
+
+.container.description {
+    border-color: green;
+
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.container.link-block {
+    display: inline-block;
+    padding: 12px 12px;
+    margin-left: 40px;
+
+    border-left-style: groove;
+    border-left-width: 2px;
+    border-left-color: #f0ebd8;
 }
 
 .image {
@@ -25,6 +48,21 @@ body {
 .link {
     color: #748CAB;
     font-weight: 400;
+}
+
+.button.link.text{
+    color: #1d2d44;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 0px;
+}
+
+/* BUTTONS */
+.button.link{
+    width: 200px;
+    display: block;
+    padding: 4px 0px;
+    margin-left: 50px;
 }
 
 /* HEADERS AND TITLES */
