@@ -3,8 +3,14 @@
     background-color: #0D1321;
 }
 
-.link-block {
+.link-block,
+.container.description {
     background-color: #1d2d44;
+}
+
+.image {
+    width: 400px;
+    height: auto;
 }
 
 /* TEXT STYLES */
@@ -27,12 +33,18 @@
     font-size: 24px;
 }
 
+.sub-header {
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .title {
     font-size: 36px;
     font-weight: 800;
 }
 
-.footer {
+.footer,
+.disclaimer {
     font-size: 12px;
     font-weight: 200;
 }
